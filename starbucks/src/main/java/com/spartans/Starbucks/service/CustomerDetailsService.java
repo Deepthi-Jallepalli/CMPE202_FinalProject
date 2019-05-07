@@ -11,9 +11,7 @@ package com.spartans.Starbucks.service;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.sql.Time;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -57,10 +55,7 @@ public class CustomerDetailsService {
 	
 	
 public void updateUser(CustomerDetails userDetails) {
-		
-		Date date = new Date();
-		Time t = new java.sql.Time(date.getTime());
-		
+				
 		Connection connection = null;
 		System.out.println("Add User Update Control" + userDetails.getCust_id());
 		System.out.println(userDetails.getFirst_name());
