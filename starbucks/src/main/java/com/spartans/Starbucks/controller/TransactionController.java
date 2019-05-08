@@ -3,6 +3,9 @@
  */
 package com.spartans.Starbucks.controller;
 
+import java.util.List;
+import java.util.Map;
+
 /**
  * @author musahay
  *
@@ -93,5 +96,23 @@ public class TransactionController {
 			model.addAttribute("errorMessage", "InvalidCredential");
 			return null;
 		}
+	}
+	
+	@GetMapping("/history")
+	public Object history(int cust_id) {
+		
+		String SELECT_SQL = "SELECT * FROM TRANSACTION_HISTORY where CUST_ID = ?";
+		
+		List<Map<String, Object>> history = null;
+		
+		try {
+			history = jdbcTemplate.queryForList(SELECT_SQL, cust_id);
+			if(history != null) {
+				return history;
+			}
+		} catch(DataAccessException dae) {
+			dae.printStackTrace();
+		}
+		return "No History Found..!!";
 	}
 }
