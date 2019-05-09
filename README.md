@@ -22,6 +22,11 @@
 
 # Architecture Diagram
 
+
+
+![AWS Architecture](https://user-images.githubusercontent.com/42783963/57483871-8f679a00-725c-11e9-8a0a-8723893d3812.png)
+
+    
   
   
 ---
