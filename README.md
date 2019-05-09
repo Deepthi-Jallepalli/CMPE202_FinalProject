@@ -22,13 +22,13 @@
 
 # Architecture Diagram
 
-
-
 ![AWS Architecture](https://user-images.githubusercontent.com/42783963/57483871-8f679a00-725c-11e9-8a0a-8723893d3812.png)
 
-    
-  
-  
+# Use Case Diagram
+
+### Authentication
+![Authentication _UseCase](https://user-images.githubusercontent.com/42783963/57486117-369b0000-7262-11e9-8acf-34270f8c9bb9.png)
+
 ---
 # Individual Contribution
 ---
