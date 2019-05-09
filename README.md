@@ -202,3 +202,12 @@ What tasks did I work on
 What tasks did I work on
 
 - Prepare the class diagram for the application
+
+
+### StoryBoard
+https://zube.io/ms-sjsu/cmpe202_finalproject/w/workspace-1/sprintboard?where%5Bsprint_id%5D=32172
+
+### Burndown Chart
+https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=0
+
+
