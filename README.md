@@ -34,7 +34,7 @@
 ---
 
 # XP Core Values
-### XP Values - Communication(Mukesh Ranjan Sahay)
+### Mukesh Ranjan Sahay - Communication
 
 I have continuously collaborating team to keep the project on track. Below are the tasks under my radar for the core value communication.
 
@@ -42,26 +42,29 @@ I have continuously collaborating team to keep the project on track. Below are t
 - Brainstormed the requirement with the team and came up with collaborative ideas. 
 - Created and shared private repo for our team with other team members. 
 
-### XP Values - Courage(Sudha Amarnath)
-Holding up the truth about the project is my primary motive to keep up the core value of courage.
 
-- I strongly believe in a team effort and if anything goes wrong we accept the challenge and face them as a team. 
-- I make sure there are no false or exaggerated facts about project progress. 
-
-### XP Values - Simplicity(Muthukumar Sukumaran)
-
-My primary role is to keep things as simple as possible to avoid complications in code. 
-
-- I strongly believe that “more code creates more bugs”. 
-- To keep things simple I encourage my team to granularize the requirement into smaller user stories 
-
-### XP Values - Respect(Thirumalai Nambi Doss)
+### Thirumalai Nambi Doss - Respect
 
 Appreciating and encouraging every smaller improvements and progress of the project gives the feel of everyone being respected.
 
 - I ensure that everyone’s time and effort is respected even if things wrong.  
 - In order to uphold the core value respect, my role is to make sure everyone is equally respected with their new attempts. 
 -   I always keep the spirit high even during critical situations.
+
+
+### Sudha Amarnath - Courage
+Holding up the truth about the project is my primary motive to keep up the core value of courage.
+
+- I strongly believe in a team effort and if anything goes wrong we accept the challenge and face them as a team. 
+- I make sure there are no false or exaggerated facts about project progress. 
+
+### Muthukumar Sukumaran - Simplicity
+
+My primary role is to keep things as simple as possible to avoid complications in code. 
+
+- I strongly believe that “more code creates more bugs”. 
+- To keep things simple I encourage my team to granularize the requirement into smaller user stories 
+
 
 # Journal Week - 1
 
