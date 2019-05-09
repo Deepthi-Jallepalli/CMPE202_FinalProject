@@ -205,7 +205,12 @@ What tasks did I work on
 
 
 ### StoryBoard
+
+
 https://zube.io/ms-sjsu/cmpe202_finalproject/w/workspace-1/sprintboard?where%5Bsprint_id%5D=32172
+
+<img width="1678" alt="Sprintboard" src="https://user-images.githubusercontent.com/42783963/57493075-5b01d700-7278-11e9-8bf9-01d69715ccd8.png">
+
 
 ### Burndown Chart
 https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=0
