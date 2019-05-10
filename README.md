@@ -48,7 +48,7 @@
 ![loadBalance](https://user-images.githubusercontent.com/34608166/57507817-b2259d00-72b4-11e9-8922-1ef7e657fc96.png)
 
 ### Make Payment
-![makePayment](https://user-images.githubusercontent.com/34608166/57507756-84405880-72b4-11e9-985e-d2caf120f30a.png)
+![MakePayment](https://user-images.githubusercontent.com/34608166/57510073-afc64180-72ba-11e9-8d8d-078905521804.png)
 
 ### Transaction History
 ![transactionHistory](https://user-images.githubusercontent.com/34608166/57507742-7be81d80-72b4-11e9-9b03-2ad7250a6935.png)
