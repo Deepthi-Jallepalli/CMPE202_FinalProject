@@ -1,4 +1,4 @@
-package com.spartans.Starbucks;
+package com.spartans.starbucks_dockertest;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.*;
