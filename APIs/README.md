@@ -21,6 +21,7 @@
 https://msoncloud.com/signup?email=test13@test13.com&first_name=test13&last_name=test13&city=test13city&state=test13state&password=test13](https://msoncloud.com/signup?email=test13@test13.com&first_name=test13&last_name=test13&city=test13city&state=test13state&password=test13) 
 ```
 
+
 ### Sample Response
 ```swift
 
@@ -34,7 +35,9 @@ https://msoncloud.com/signup?email=test13@test13.com&first_name=test13&last_name
     "password": "test13"
 }
 ``` 
-  
+
+<img width="1178" alt="User Signup" src="https://user-images.githubusercontent.com/42783963/57511087-3d0a9580-72bd-11e9-98ed-0c60ab41b67b.png">
+ 
 
 2. Login - Login to the account of the user by validating the user details 
 
@@ -60,6 +63,8 @@ https://msoncloud.com/login?email=test13@test13.com&password=test13
     "password": "test13"
 }
 ```
+
+<img width="1178" alt="User Login" src="https://user-images.githubusercontent.com/42783963/57511121-57447380-72bd-11e9-8425-c38acdbb1a72.png">
 
 ## Add Card API 
 
@@ -90,6 +95,10 @@ https://msoncloud.com/addcard?cust_id=10&card_id=123458217&card_code=123&balance
     "_id": 19
 }
 ```
+
+<img width="1178" alt="Add New Card" src="https://user-images.githubusercontent.com/42783963/57511127-61ff0880-72bd-11e9-8260-da8d7959d8dc.png">
+
+
 ## Payments API 
 
 The Payments API is used to make a payment with the specified amount which will be deducted from the initial balance of the card when it was added to the user.
@@ -116,6 +125,9 @@ https://msoncloud.com/makepayment?cust_id=10&card_id=123456783&card_code=123&bal
     "_id": 0
 }
 ```
+
+<img width="1178" alt="Make Payment" src="https://user-images.githubusercontent.com/42783963/57511156-7511d880-72bd-11e9-9ae9-0fb79b229ea3.png">
+
 
 ## Manage Orders API 
 
@@ -174,6 +186,9 @@ https://msoncloud.com/history?cust_id=10
 ]
 ```
 
+<img width="1178" alt="Manage Orders" src="https://user-images.githubusercontent.com/42783963/57511178-865ae500-72bd-11e9-881c-6662ade9a3ee.png">
+
+
 ## Add Balance API 
 
 The Add Balance API is used to add an additional amount (reloading) to the already added card.
@@ -200,3 +215,5 @@ https://msoncloud.com/addbalance?cust_id=10&card_id=123456783&card_code=123&bala
     "_id": 0
 }
 ```
+
+<img width="1178" alt="Add Balance" src="https://user-images.githubusercontent.com/42783963/57511200-91ae1080-72bd-11e9-8236-baaa0593f71c.png">
