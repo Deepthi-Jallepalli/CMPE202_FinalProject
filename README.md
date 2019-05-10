@@ -484,6 +484,10 @@ http://www.sudhaaws.com/addbalance?cust_id=10&card_id=123456783&card_code=123&ba
 
 
 
+## JUnit Test Case Run Results 
+![10](https://user-images.githubusercontent.com/42689991/57559112-34ee3c80-7335-11e9-93b5-1df90ef8d2b8.PNG)
+
+
 
 ## Docker Cluster in AWS ECS
 ![3](https://user-images.githubusercontent.com/42689991/57514720-ed7c9780-72c5-11e9-9ae1-f93409749b72.PNG)
