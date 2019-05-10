@@ -212,11 +212,13 @@ https://zube.io/ms-sjsu/cmpe202_finalproject/w/workspace-1/sprintboard?where%5Bs
 <img width="1678" alt="Sprintboard" src="https://user-images.githubusercontent.com/42783963/57493075-5b01d700-7278-11e9-8bf9-01d69715ccd8.png">
 
 
-## Burndown Chart
+## Task Sheet
 https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=0
 
 ![sprint](https://user-images.githubusercontent.com/42783963/57493127-8f759300-7278-11e9-9e84-9170d8e5ce20.png)
 
+## Burndown Chart
+https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=500653002
 
 ![BurndownChart](https://user-images.githubusercontent.com/42783963/57493131-969ca100-7278-11e9-85cb-0e1b752cc1eb.png)
 
