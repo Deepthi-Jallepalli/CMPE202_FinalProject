@@ -36,6 +36,9 @@
 
 ![Blank Diagram](https://user-images.githubusercontent.com/42783963/57505041-be592c80-72ab-11e9-9a87-502a0439f389.png)
 
+# Docker Container Depoloyment on AWS ECS
+![2](https://user-images.githubusercontent.com/42689991/57513461-223b1f80-72c3-11e9-8892-29b4468f5abf.PNG)
+
 # Use Case Diagram
 
 ### Authentication
