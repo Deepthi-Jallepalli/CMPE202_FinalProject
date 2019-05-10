@@ -475,10 +475,31 @@ https://zube.io/ms-sjsu/cmpe202_finalproject/w/workspace-1/sprintboard?where%5Bs
 ## Task Sheet
 https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=0
 
-![sprint](https://user-images.githubusercontent.com/42783963/57493127-8f759300-7278-11e9-9e84-9170d8e5ce20.png)
+### Sprint 1
+
+<img width="1150" alt="Sprint 1" src="https://user-images.githubusercontent.com/42783963/57513061-33cff780-72c2-11e9-83e8-4ba2fb6fe2a2.png">
+
+### Sprint 2
+
+<img width="1150" alt="Sprint 2" src="https://user-images.githubusercontent.com/42783963/57513064-3599bb00-72c2-11e9-8a64-29e078a3c9ac.png">
+
+### Sprint 3
+
+<img width="1150" alt="Sprint 3" src="https://user-images.githubusercontent.com/42783963/57513067-37fc1500-72c2-11e9-84b2-adb39a724bce.png">
 
 ## Burndown Chart
 https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=500653002
 
-![BurndownChart](https://user-images.githubusercontent.com/42783963/57493131-969ca100-7278-11e9-85cb-0e1b752cc1eb.png)
+### Burndown 1
+
+<img width="1150" alt="Burndown 1" src="https://user-images.githubusercontent.com/42783963/57513170-7eea0a80-72c2-11e9-9ad6-c51a8a571f01.png">
+
+
+### Burndown 2
+
+<img width="1150" alt="Burndown 2" src="https://user-images.githubusercontent.com/42783963/57513174-814c6480-72c2-11e9-9afe-411fc2c91c99.png">
+
+### Burndown 3
+
+<img width="1150" alt="Burndown3" src="https://user-images.githubusercontent.com/42783963/57513183-83162800-72c2-11e9-8cc0-27637259e511.png">
 
