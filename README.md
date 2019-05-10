@@ -39,7 +39,7 @@
 # Use Case Diagram
 
 ### Authentication
-![Autentication](https://user-images.githubusercontent.com/42783963/57490724-0443cf80-726f-11e9-8299-556e23d7da45.png)
+![Authentication](https://user-images.githubusercontent.com/34608166/57509027-041bf200-72b8-11e9-8afa-e6c716506f48.png)
 
 ### Add Card
 ![addCard](https://user-images.githubusercontent.com/34608166/57507769-8e625700-72b4-11e9-81ba-932c80607538.png)
