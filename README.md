@@ -114,6 +114,13 @@ My primary role is to keep things as simple as possible to avoid complications i
 - I strongly believe that “more code creates more bugs”. 
 - To keep things simple I encourage my team to granularize the requirement into smaller user stories 
 
+## StoryBoard
+
+
+https://zube.io/ms-sjsu/cmpe202_finalproject/w/workspace-1/sprintboard?where%5Bsprint_id%5D=32172
+
+<img width="1678" alt="Sprintboard" src="https://user-images.githubusercontent.com/42783963/57493075-5b01d700-7278-11e9-8bf9-01d69715ccd8.png">
+
 
 # Journal Sprint - 1
 
@@ -168,6 +175,18 @@ What I am planning to work on next
 
 - Create the Manage Orders API to view the list of transactions 
   
+## Task Sheet
+
+https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=0
+
+<img width="1150" alt="Sprint 1" src="https://user-images.githubusercontent.com/42783963/57513061-33cff780-72c2-11e9-83e8-4ba2fb6fe2a2.png">
+
+## Burndown Chart
+
+https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=500653002
+
+<img width="1150" alt="Burndown 1" src="https://user-images.githubusercontent.com/42783963/57513170-7eea0a80-72c2-11e9-9ad6-c51a8a571f01.png">
+
 
 # Journal Sprint - 2
 
@@ -218,6 +237,18 @@ What tasks did I work on
 What I am planning to work on next
 
 - Prepare the class diagram for the application 
+
+## Task Sheet
+
+https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=148020726
+
+<img width="1150" alt="Sprint 2" src="https://user-images.githubusercontent.com/42783963/57513064-3599bb00-72c2-11e9-8a64-29e078a3c9ac.png">
+
+## Burndown Chart
+
+https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=452565306
+
+<img width="1150" alt="Burndown 2" src="https://user-images.githubusercontent.com/42783963/57513174-814c6480-72c2-11e9-9afe-411fc2c91c99.png">
   
 
 # Journal Sprint - 3
@@ -250,6 +281,19 @@ What tasks did I work on
 What tasks did I work on
 
 - Prepare the class diagram for the application
+
+## Task Sheet
+
+https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=840283743
+
+<img width="1150" alt="Sprint 3" src="https://user-images.githubusercontent.com/42783963/57513067-37fc1500-72c2-11e9-84b2-adb39a724bce.png">
+
+## Burndown Chart
+
+https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=817197761
+
+<img width="1150" alt="Burndown3" src="https://user-images.githubusercontent.com/42783963/57513183-83162800-72c2-11e9-8cc0-27637259e511.png">
+  
 
 # List of APIs 
 
@@ -507,44 +551,4 @@ http://www.sudhaaws.com/addbalance?cust_id=10&card_id=123456783&card_code=123&ba
 
 ## Docker container build from project jar file and push to AWS repository
 ![7](https://user-images.githubusercontent.com/42689991/57514718-ece40100-72c5-11e9-9eb6-dfde583696b9.PNG)
-
-
-## StoryBoard
-
-
-https://zube.io/ms-sjsu/cmpe202_finalproject/w/workspace-1/sprintboard?where%5Bsprint_id%5D=32172
-
-<img width="1678" alt="Sprintboard" src="https://user-images.githubusercontent.com/42783963/57493075-5b01d700-7278-11e9-8bf9-01d69715ccd8.png">
-
-
-## Task Sheet
-https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=0
-
-### Sprint 1
-
-<img width="1150" alt="Sprint 1" src="https://user-images.githubusercontent.com/42783963/57513061-33cff780-72c2-11e9-83e8-4ba2fb6fe2a2.png">
-
-### Sprint 2
-
-<img width="1150" alt="Sprint 2" src="https://user-images.githubusercontent.com/42783963/57513064-3599bb00-72c2-11e9-8a64-29e078a3c9ac.png">
-
-### Sprint 3
-
-<img width="1150" alt="Sprint 3" src="https://user-images.githubusercontent.com/42783963/57513067-37fc1500-72c2-11e9-84b2-adb39a724bce.png">
-
-## Burndown Chart
-https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=500653002
-
-### Burndown 1
-
-<img width="1150" alt="Burndown 1" src="https://user-images.githubusercontent.com/42783963/57513170-7eea0a80-72c2-11e9-9ad6-c51a8a571f01.png">
-
-
-### Burndown 2
-
-<img width="1150" alt="Burndown 2" src="https://user-images.githubusercontent.com/42783963/57513174-814c6480-72c2-11e9-9afe-411fc2c91c99.png">
-
-### Burndown 3
-
-<img width="1150" alt="Burndown3" src="https://user-images.githubusercontent.com/42783963/57513183-83162800-72c2-11e9-8cc0-27637259e511.png">
 
