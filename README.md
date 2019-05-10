@@ -36,6 +36,9 @@
 
 ![Blank Diagram](https://user-images.githubusercontent.com/42783963/57505041-be592c80-72ab-11e9-9a87-502a0439f389.png)
 
+# Docker Container Depoloyment on AWS ECS
+![2](https://user-images.githubusercontent.com/42689991/57513461-223b1f80-72c3-11e9-8892-29b4468f5abf.PNG)
+
 # Use Case Diagram
 
 ### Authentication
@@ -244,6 +247,259 @@ What tasks did I work on
 
 - Prepare the class diagram for the application
 
+# List of APIs 
+
+  
+
+## Authentication API
+
+1. Signup - Register a new user with the specified details of the user 
+
+- URL - /signup 
+- HTTP Method: POST 
+- Parameters 
+    - Email 
+    - Password 
+    - FirstName 
+    - LastName 
+    - City 
+    - State 
+
+### Sample URL 
+```swift
+https://msoncloud.com/signup?email=test13@test13.com&first_name=test13&last_name=test13&city=test13city&state=test13state&password=test13](https://msoncloud.com/signup?email=test13@test13.com&first_name=test13&last_name=test13&city=test13city&state=test13state&password=test13) 
+```
+
+
+### Sample Response
+```swift
+
+{
+    "cust_id": 16,
+    "first_name": "test13",
+    "last_name": "test13",
+    "email": "test13@test13.com",
+    "city": "test13city",
+    "state": "test13state",
+    "password": "test13"
+}
+``` 
+
+<img width="1178" alt="User Signup" src="https://user-images.githubusercontent.com/42783963/57511087-3d0a9580-72bd-11e9-98ed-0c60ab41b67b.png">
+ 
+
+2. Login - Login to the account of the user by validating the user details 
+
+- URL - /login 
+- HTTP Method: POST 
+- Parameters 
+    - Email 
+    - Password 
+
+### Sample URL 
+```swift
+https://msoncloud.com/login?email=test13@test13.com&password=test13
+```
+### Sample Response 
+```swift
+{
+    "cust_id": 16,
+    "first_name": "test13",
+    "last_name": "test13",
+    "email": "test13@test13.com",
+    "city": "test13city",
+    "state": "test13state",
+    "password": "test13"
+}
+```
+
+<img width="1178" alt="User Login" src="https://user-images.githubusercontent.com/42783963/57511121-57447380-72bd-11e9-8425-c38acdbb1a72.png">
+
+## Add Card API 
+
+Add a new Card with Card details like Card ID and Card Code to the specified Customer. The Initial Balance of the card is assigned through this API.
+
+  
+
+- URL - /addcard 
+- HTTP Method: POST 
+- Parameters 
+    - Customer ID 
+    - Card ID 
+    - Card Code 
+    - Balance 
+
+### Sample URL
+```swift
+https://msoncloud.com/addcard?cust_id=10&card_id=123458217&card_code=123&balance=50
+```
+
+### Sample Response 
+```swift
+{
+    "cust_id": 10,
+    "card_id": 123458217,
+    "card_code": 123,
+    "balance": 50,
+    "_id": 19
+}
+```
+
+<img width="1178" alt="Add New Card" src="https://user-images.githubusercontent.com/42783963/57511127-61ff0880-72bd-11e9-8260-da8d7959d8dc.png">
+
+
+## Payments API 
+
+The Payments API is used to make a payment with the specified amount which will be deducted from the initial balance of the card when it was added to the user.
+
+- URL - /makepayment 
+- HTTP Method: POST 
+- Parameters 
+    - Customer ID 
+    - Card ID 
+    - Card Code 
+    - Balance 
+
+### Sample URL
+```swift
+https://msoncloud.com/makepayment?cust_id=10&card_id=123456783&card_code=123&balance=20
+```
+### Sample Response
+```swift
+{
+    "cust_id": 10,
+    "card_id": 123456783,
+    "card_code": 123,
+    "balance": 170,
+    "_id": 0
+}
+```
+
+<img width="1178" alt="Make Payment" src="https://user-images.githubusercontent.com/42783963/57511156-7511d880-72bd-11e9-9ae9-0fb79b229ea3.png">
+
+
+### Sample response from Docker container deployed in AWS ECS
+```swift
+http://www.sudhaaws.com/makepayment?cust_id=10&card_id=123456783&card_code=123&balance=20
+```
+![8](https://user-images.githubusercontent.com/42689991/57515435-81029800-72c7-11e9-8176-b150125fe433.PNG)
+
+
+## Manage Orders API 
+
+The Manage orders API is used to list the history of transactions carried out by the user. It also lists the transactions of all cards added under the user’s account. The Response consists of the Transaction ID, Transaction time and the amount paid at the time of payment.
+
+- URL - /history 
+- HTTP Method: GET 
+- Parameters 
+    - Customer ID 
+    - Card ID 
+    - Card Code 
+    - Balance 
+
+### Sample URL 
+```swift
+https://msoncloud.com/history?cust_id=10
+```
+### Sample Response 
+```swift
+[
+    {
+        "TRANSACTION_ID": 7,
+        "CUST_ID": 10,
+        "CARD_ID": 123456783,
+        "TRANSACTION_TIME": "2019-05-10T05:04:46.000+0000",
+        "PAYMENT_AMOUNT": 20
+    },
+    {
+        "TRANSACTION_ID": 8,
+        "CUST_ID": 10,
+        "CARD_ID": 123456783,
+        "TRANSACTION_TIME": "2019-05-10T06:30:42.000+0000",
+        "PAYMENT_AMOUNT": 20
+    },
+    {
+        "TRANSACTION_ID": 9,
+        "CUST_ID": 10,
+        "CARD_ID": 123456783,
+        "TRANSACTION_TIME": "2019-05-10T06:31:02.000+0000",
+        "PAYMENT_AMOUNT": 20
+    },
+    {
+        "TRANSACTION_ID": 10,
+        "CUST_ID": 10,
+        "CARD_ID": 189327583,
+        "TRANSACTION_TIME": "2019-05-10T06:38:37.000+0000",
+        "PAYMENT_AMOUNT": 25
+    },
+    {
+        "TRANSACTION_ID": 11,
+        "CUST_ID": 10,
+        "CARD_ID": 123456783,
+        "TRANSACTION_TIME": "2019-05-10T07:45:02.000+0000",
+        "PAYMENT_AMOUNT": 20
+    }
+]
+```
+
+<img width="1178" alt="Manage Orders" src="https://user-images.githubusercontent.com/42783963/57511178-865ae500-72bd-11e9-881c-6662ade9a3ee.png">
+
+
+## Add Balance API 
+
+The Add Balance API is used to add an additional amount (reloading) to the already added card.
+
+- URL - /addbalance 
+- HTTP Method: POST 
+- Parameters 
+    - Customer ID 
+    - Card ID 
+    - Card Code 
+    - Balance 
+
+### Sample URL
+```swift
+https://msoncloud.com/addbalance?cust_id=10&card_id=123456783&card_code=123&balance=50
+```
+### Sample Response
+```swift
+{
+    "cust_id": 10,
+    "card_id": 123456783,
+    "card_code": 123,
+    "balance": 220,
+    "_id": 0
+}
+```
+
+<img width="1178" alt="Add Balance" src="https://user-images.githubusercontent.com/42783963/57511200-91ae1080-72bd-11e9-8236-baaa0593f71c.png">
+
+
+### Sample URL
+```swift
+http://www.sudhaaws.com/addbalance?cust_id=10&card_id=123456783&card_code=123&balance=50
+```
+### Sample response from Docker container deployed in AWS ECS
+![9](https://user-images.githubusercontent.com/42689991/57515836-6381fe00-72c8-11e9-945b-95c6a0b3f35f.PNG)
+
+
+
+
+## Docker Cluster in AWS ECS
+![3](https://user-images.githubusercontent.com/42689991/57514720-ed7c9780-72c5-11e9-9ae1-f93409749b72.PNG)
+
+## Successful SNS notification for Docker Container deployment
+![4](https://user-images.githubusercontent.com/42689991/57514713-ece40100-72c5-11e9-952f-b8efc43ef924.PNG)
+
+## Docker Repository in AWS ECS
+![5](https://user-images.githubusercontent.com/42689991/57514715-ece40100-72c5-11e9-99b7-7486c8313397.PNG)
+
+## Task Definitions
+![6](https://user-images.githubusercontent.com/42689991/57514717-ece40100-72c5-11e9-8304-1a1a2ae4b48e.PNG)
+
+## Docker container build from project jar file and push to AWS repository
+![7](https://user-images.githubusercontent.com/42689991/57514718-ece40100-72c5-11e9-9eb6-dfde583696b9.PNG)
+
 
 ## StoryBoard
 
@@ -256,10 +512,31 @@ https://zube.io/ms-sjsu/cmpe202_finalproject/w/workspace-1/sprintboard?where%5Bs
 ## Task Sheet
 https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=0
 
-![sprint](https://user-images.githubusercontent.com/42783963/57493127-8f759300-7278-11e9-9e84-9170d8e5ce20.png)
+### Sprint 1
+
+<img width="1150" alt="Sprint 1" src="https://user-images.githubusercontent.com/42783963/57513061-33cff780-72c2-11e9-83e8-4ba2fb6fe2a2.png">
+
+### Sprint 2
+
+<img width="1150" alt="Sprint 2" src="https://user-images.githubusercontent.com/42783963/57513064-3599bb00-72c2-11e9-8a64-29e078a3c9ac.png">
+
+### Sprint 3
+
+<img width="1150" alt="Sprint 3" src="https://user-images.githubusercontent.com/42783963/57513067-37fc1500-72c2-11e9-84b2-adb39a724bce.png">
 
 ## Burndown Chart
 https://docs.google.com/spreadsheets/d/1OPykANhVQRjI8_Ru5q1IhSUUn3ANxdksqwxk6FdoUwo/edit?ts=5cd0b5e0#gid=500653002
 
-![BurndownChart](https://user-images.githubusercontent.com/42783963/57493131-969ca100-7278-11e9-85cb-0e1b752cc1eb.png)
+### Burndown 1
+
+<img width="1150" alt="Burndown 1" src="https://user-images.githubusercontent.com/42783963/57513170-7eea0a80-72c2-11e9-9ad6-c51a8a571f01.png">
+
+
+### Burndown 2
+
+<img width="1150" alt="Burndown 2" src="https://user-images.githubusercontent.com/42783963/57513174-814c6480-72c2-11e9-9afe-411fc2c91c99.png">
+
+### Burndown 3
+
+<img width="1150" alt="Burndown3" src="https://user-images.githubusercontent.com/42783963/57513183-83162800-72c2-11e9-8cc0-27637259e511.png">
 
