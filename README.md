@@ -378,6 +378,13 @@ https://msoncloud.com/makepayment?cust_id=10&card_id=123456783&card_code=123&bal
 <img width="1178" alt="Make Payment" src="https://user-images.githubusercontent.com/42783963/57511156-7511d880-72bd-11e9-9ae9-0fb79b229ea3.png">
 
 
+### Sample response from Docker container deployed in AWS ECS
+```swift
+http://www.sudhaaws.com/makepayment?cust_id=10&card_id=123456783&card_code=123&balance=20
+```
+![8](https://user-images.githubusercontent.com/42689991/57515435-81029800-72c7-11e9-8176-b150125fe433.PNG)
+
+
 ## Manage Orders API 
 
 The Manage orders API is used to list the history of transactions carried out by the user. It also lists the transactions of all cards added under the user’s account. The Response consists of the Transaction ID, Transaction time and the amount paid at the time of payment.
