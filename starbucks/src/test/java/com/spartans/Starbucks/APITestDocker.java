@@ -1,4 +1,4 @@
-package com.spartans.starbucks_dockertest;
+package com.spartans.Starbucks;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.*;
@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 import org.junit.Test;
 
 
-public class APITest extends FunctionalTest {
+public class APITestDocker extends FunctionalTestDocker {
 	String signupEmail ="test17@test17gmail.com";
 	String signupFirstName ="test17";
 	String signupLastName ="test17";

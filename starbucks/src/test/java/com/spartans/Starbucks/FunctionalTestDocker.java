@@ -1,10 +1,10 @@
-package com.spartans.starbucks_dockertest;
+package com.spartans.Starbucks;
 
 import org.junit.BeforeClass;
 
 import io.restassured.RestAssured;
 
-public class FunctionalTest {
+public class FunctionalTestDocker {
 	@BeforeClass
     public static void setup() {
         String port = System.getProperty("server.port");
