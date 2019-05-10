@@ -108,7 +108,7 @@ My primary role is to keep things as simple as possible to avoid complications i
 - To keep things simple I encourage my team to granularize the requirement into smaller user stories 
 
 
-# Journal Week - 1
+# Journal Sprint - 1
 
   
 
@@ -162,7 +162,7 @@ What I am planning to work on next
 - Create the Manage Orders API to view the list of transactions 
   
 
-# Journal Week - 2
+# Journal Sprint - 2
 
   
 
@@ -213,7 +213,7 @@ What I am planning to work on next
 - Prepare the class diagram for the application 
   
 
-# Journal Week - 3
+# Journal Sprint - 3
 
   
 
