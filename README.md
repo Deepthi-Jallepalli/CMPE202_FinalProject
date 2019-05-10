@@ -4,7 +4,9 @@
 
 # Technology Stack
 
-- Spring Boot
+- Spring Boot - For the development of the application with various REST APIs
+
+- Postman - REST API client to test the newly created APIs
 
 - AWS Services 
 
@@ -19,6 +21,16 @@
   - Autoscaling
 
   - Amazon Docker
+  
+- Project Management Tools 
+
+  - Zube - For Sprint tracking and management 
+    
+  - GitHub - Source code and Project Management 
+    
+  - Google Sheet - Task tracking and sprint burndown 
+    
+  - Zoom - Team collaboration (Organizing daily scrum and other meetings)
 
 # Architecture Diagram
 
