@@ -74,6 +74,10 @@ MVC design pattern helps in separation of the three different objects data model
   
 
 - Controller - Controller exists between both View and Model by controlling the data flow into the model object and changing of views whenever there is a change in  the data
+# Class Diagram
+
+![Starbucks - Class Diagram](https://user-images.githubusercontent.com/42783963/57561735-7507ec00-7342-11e9-9496-659addfd9c72.png)
+
 ---
 # Individual Contribution
 ---
