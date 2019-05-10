@@ -24,8 +24,28 @@ public class APITest extends FunctionalTest {
 	int CustomerID = 13;
 
 	@Test
-	public void PingTest() {
+	public void PingTest1() {
 		given().when().get("/login").then().statusCode(200);
+	}
+	@Test
+	public void PingTest2() {
+		given().when().get("/signup").then().statusCode(200);
+	}
+	@Test
+	public void PingTest3() {
+		given().when().get("/addcard").then().statusCode(200);
+	}
+	@Test
+	public void PingTest4() {
+		given().when().get("/makepayment").then().statusCode(200);
+	}
+	@Test
+	public void PingTest5() {
+		given().when().get("/history?cust_id=200").then().statusCode(200);
+	}
+	@Test
+	public void PingTest6() {
+		given().when().get("/addbalance").then().statusCode(200);
 	}
 	@Test
 	public void SignupTest() {
