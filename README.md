@@ -468,11 +468,20 @@ https://msoncloud.com/addbalance?cust_id=10&card_id=123456783&card_code=123&bala
 <img width="1178" alt="Add Balance" src="https://user-images.githubusercontent.com/42783963/57511200-91ae1080-72bd-11e9-8236-baaa0593f71c.png">
 
 
-# Docker Cluster in AWS ECS
+## Docker Cluster in AWS ECS
 ![3](https://user-images.githubusercontent.com/42689991/57514720-ed7c9780-72c5-11e9-9ae1-f93409749b72.PNG)
 
-# Successful SNS notification for Docker Container deployment
+## Successful SNS notification for Docker Container deployment
 ![4](https://user-images.githubusercontent.com/42689991/57514713-ece40100-72c5-11e9-952f-b8efc43ef924.PNG)
+
+## Docker Repository in AWS ECS
+![5](https://user-images.githubusercontent.com/42689991/57514715-ece40100-72c5-11e9-99b7-7486c8313397.PNG)
+
+## Task Definitions
+![6](https://user-images.githubusercontent.com/42689991/57514717-ece40100-72c5-11e9-8304-1a1a2ae4b48e.PNG)
+
+## Docker container build from project jar file and push to AWS repository
+![7](https://user-images.githubusercontent.com/42689991/57514718-ece40100-72c5-11e9-9eb6-dfde583696b9.PNG)
 
 
 ## StoryBoard
