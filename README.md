@@ -41,14 +41,17 @@
 ### Authentication
 ![Autentication](https://user-images.githubusercontent.com/42783963/57490724-0443cf80-726f-11e9-8299-556e23d7da45.png)
 
-
 ### Add Card
+![addCard](https://user-images.githubusercontent.com/34608166/57507769-8e625700-72b4-11e9-81ba-932c80607538.png)
 
 ### Load Balance
+![loadBalance](https://user-images.githubusercontent.com/34608166/57507817-b2259d00-72b4-11e9-8922-1ef7e657fc96.png)
 
 ### Make Payment
+![makePayment](https://user-images.githubusercontent.com/34608166/57507756-84405880-72b4-11e9-985e-d2caf120f30a.png)
 
 ### Transaction History
+![transactionHistory](https://user-images.githubusercontent.com/34608166/57507742-7be81d80-72b4-11e9-9b03-2ad7250a6935.png)
 
 
 
