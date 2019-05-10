@@ -29,7 +29,22 @@
 ### Authentication
 ![Autentication](https://user-images.githubusercontent.com/42783963/57490724-0443cf80-726f-11e9-8299-556e23d7da45.png)
 
+# Choice of Design Pattern 
 
+
+### MVC
+
+MVC design pattern helps in separation of the three different objects data model, presentation information and control information concerned with the application. MVC pattern allows multiple developers working on the model, view, and controller at the same time. MVC design pattern also provides a way to switch the views for the application thus providing multiple views for the same application. Modification of any of the component in the MVC pattern does not affect the other component as the three components are not dependent.
+
+  
+
+- Model - Model represents an object or Java POJO carrying data as it consists of all the data associated with the application and defining any manipulation involved in that data. 
+  
+
+- View - View represents the visualization of data and is not concerned about the manipulation of data. 
+  
+
+- Controller - Controller exists between both View and Model by controlling the data flow into the model object and changing of views whenever there is a change in  the data
 ---
 # Individual Contribution
 ---
