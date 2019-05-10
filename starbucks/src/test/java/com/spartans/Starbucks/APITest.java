@@ -78,6 +78,16 @@ public class APITest extends FunctionalTest {
 		.body("[0].CUST_ID", equalTo(10))
 		.body("[0].CARD_ID", equalTo(123456783))
 		.body("[0].TRANSACTION_TIME", equalTo("2019-05-10T05:04:46.000+0000"))
-		.body("[0].PAYMENT_AMOUNT", equalTo(20.0f));
+		.body("[0].PAYMENT_AMOUNT", equalTo(20.0f))
+		.body("[1].TRANSACTION_ID", equalTo(8))
+		.body("[1].CUST_ID", equalTo(10))
+		.body("[1].CARD_ID", equalTo(123456783))
+		.body("[1].TRANSACTION_TIME", equalTo("2019-05-10T06:30:42.000+0000"))
+		.body("[1].PAYMENT_AMOUNT", equalTo(20.0f))
+		.body("[4].TRANSACTION_ID", equalTo(11))
+		.body("[4].CUST_ID", equalTo(10))
+		.body("[4].CARD_ID", equalTo(123456783))
+		.body("[4].TRANSACTION_TIME", equalTo("2019-05-10T07:45:02.000+0000"))
+		.body("[4].PAYMENT_AMOUNT", equalTo(20.0f));
 	}
 }
