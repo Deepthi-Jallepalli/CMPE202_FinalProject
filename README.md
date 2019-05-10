@@ -475,6 +475,16 @@ https://msoncloud.com/addbalance?cust_id=10&card_id=123456783&card_code=123&bala
 <img width="1178" alt="Add Balance" src="https://user-images.githubusercontent.com/42783963/57511200-91ae1080-72bd-11e9-8236-baaa0593f71c.png">
 
 
+### Sample URL
+```swift
+http://www.sudhaaws.com/addbalance?cust_id=10&card_id=123456783&card_code=123&balance=50
+```
+### Sample response from Docker container deployed in AWS ECS
+![9](https://user-images.githubusercontent.com/42689991/57515836-6381fe00-72c8-11e9-945b-95c6a0b3f35f.PNG)
+
+
+
+
 ## Docker Cluster in AWS ECS
 ![3](https://user-images.githubusercontent.com/42689991/57514720-ed7c9780-72c5-11e9-9ae1-f93409749b72.PNG)
 
