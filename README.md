@@ -484,7 +484,7 @@ http://www.sudhaaws.com/addbalance?cust_id=10&card_id=123456783&card_code=123&ba
 
 
 
-## JUnit Test Case Run Results 
+## Rest Assured Test Case Run Results 
 ![10](https://user-images.githubusercontent.com/42689991/57559112-34ee3c80-7335-11e9-93b5-1df90ef8d2b8.PNG)
 
 
