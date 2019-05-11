@@ -552,3 +552,6 @@ http://www.sudhaaws.com/addbalance?cust_id=10&card_id=123456783&card_code=123&ba
 ## Docker container build from project jar file and push to AWS repository
 ![7](https://user-images.githubusercontent.com/42689991/57514718-ece40100-72c5-11e9-9eb6-dfde583696b9.PNG)
 
+## Team's Velocity
+
+<img width="1679" alt="Velocity" src="https://user-images.githubusercontent.com/42783963/57561828-0c6d3f00-7343-11e9-80eb-3a6eb1b59c47.png">
