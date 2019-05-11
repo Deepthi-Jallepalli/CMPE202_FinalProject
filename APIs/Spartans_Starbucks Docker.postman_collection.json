@@ -1,0 +1,267 @@
+{
+	"info": {
+		"_postman_id": "bf45dbaa-b500-45a5-843c-468e49cd65c3",
+		"name": "Spartans_Starbucks Docker",
+		"description": "APIs for the Spratans team project for CMPE-202 - (Starbucks APIs)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User Signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.sudhaaws.com/signup?email=test70@gmail.com&first_name=test70&last_name=test70&city=testcity&state=teststate&password=test70",
+					"protocol": "http",
+					"host": [
+						"www",
+						"sudhaaws",
+						"com"
+					],
+					"path": [
+						"signup"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "test70@gmail.com"
+						},
+						{
+							"key": "first_name",
+							"value": "test70"
+						},
+						{
+							"key": "last_name",
+							"value": "test70"
+						},
+						{
+							"key": "city",
+							"value": "testcity"
+						},
+						{
+							"key": "state",
+							"value": "teststate"
+						},
+						{
+							"key": "password",
+							"value": "test70"
+						}
+					]
+				},
+				"description": "Provide new values for the user to be added"
+			},
+			"response": []
+		},
+		{
+			"name": "User Login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.sudhaaws.com/login?email=test70@gmail.com&password=test70",
+					"protocol": "http",
+					"host": [
+						"www",
+						"sudhaaws",
+						"com"
+					],
+					"path": [
+						"login"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "test70@gmail.com"
+						},
+						{
+							"key": "password",
+							"value": "test70"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add New Card",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.sudhaaws.com/addcard?cust_id=66&card_id=123456783&card_code=123&balance=100",
+					"protocol": "http",
+					"host": [
+						"www",
+						"sudhaaws",
+						"com"
+					],
+					"path": [
+						"addcard"
+					],
+					"query": [
+						{
+							"key": "cust_id",
+							"value": "66"
+						},
+						{
+							"key": "card_id",
+							"value": "123456783"
+						},
+						{
+							"key": "card_code",
+							"value": "123"
+						},
+						{
+							"key": "balance",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Make Payment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.sudhaaws.com/makepayment?cust_id=66&card_id=123456783&card_code=123&balance=45",
+					"protocol": "http",
+					"host": [
+						"www",
+						"sudhaaws",
+						"com"
+					],
+					"path": [
+						"makepayment"
+					],
+					"query": [
+						{
+							"key": "cust_id",
+							"value": "66"
+						},
+						{
+							"key": "card_id",
+							"value": "123456783"
+						},
+						{
+							"key": "card_code",
+							"value": "123"
+						},
+						{
+							"key": "balance",
+							"value": "45"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Balance",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.sudhaaws.com/addbalance?cust_id=66&card_id=123456783&card_code=123&balance=20",
+					"protocol": "http",
+					"host": [
+						"www",
+						"sudhaaws",
+						"com"
+					],
+					"path": [
+						"addbalance"
+					],
+					"query": [
+						{
+							"key": "cust_id",
+							"value": "66"
+						},
+						{
+							"key": "card_id",
+							"value": "123456783"
+						},
+						{
+							"key": "card_code",
+							"value": "123"
+						},
+						{
+							"key": "balance",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transaction History",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://msoncloud.com/history?cust_id=10",
+					"protocol": "https",
+					"host": [
+						"msoncloud",
+						"com"
+					],
+					"path": [
+						"history"
+					],
+					"query": [
+						{
+							"key": "cust_id",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
